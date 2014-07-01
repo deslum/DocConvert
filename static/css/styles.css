@@ -1,0 +1,113 @@
+﻿html,body {
+  height:100%;
+}
+
+h1 {
+  font-family: Arial,sans-serif
+  font-size:80px;
+  color:#DDCCEE;
+}
+
+h6 {
+  font-family: Arial,sans-serif
+  font-size:100px;
+  color:#DDCCEE;
+}
+
+.menushka {
+  font-family: Arial,sans-serif
+  font-size:25px;
+  color:#DDCCEE;
+}
+
+.lead {
+	color:#DDCCEE;
+}
+
+
+.mtext {
+  color:#DDCCEE;
+}
+
+
+.type_file { /* блок-родитель, внутри которого будут позиционироваться остальные элементы для реализации стильного поля выбора файлов */
+position: relative;
+height: 26px;
+}
+
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-color:#110022;
+  color:#eee;
+  overflow:hidden;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.v-center {
+  margin-top:7%;
+}
+
+
+.pdf {
+width: 128px; /* размеры кноки */
+height: 128px;
+background: url("../img/pdf.png");
+overflow: hidden; /* поможет избежать выхода поля за границы кнопки */
+position: relative; /* относительно этого блока будем позиционировать поле */
+}
+.pdf input {
+height: 200px;
+position: absolute; /* для более простого позиционирования поля */
+top: 0; /* начальные координаты */
+right: 0;
+opacity: 0; /* само поле делаем прозрачным, чтобы показать фон кнопки */
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+cursor: pointer;
+font-size: 200px;
+}
+
+
+.send {
+width: 128px; /* размеры кноки */
+height: 128px;
+background: url("../img/arrow.png");
+overflow: hidden; /* поможет избежать выхода поля за границы кнопки */
+position: relative; /* относительно этого блока будем позиционировать поле */
+}
+.send input {
+height: 200px;
+position: absolute; /* для более простого позиционирования поля */
+top: 0; /* начальные координаты */
+right: 0;
+opacity: 0; /* само поле делаем прозрачным, чтобы показать фон кнопки */
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+cursor: pointer;
+font-size: 200px;
+}
+
+
+.button {
+width: 128px; /* размеры кноки */
+height: 128px;
+background: url("../img/word.png");
+overflow: hidden; /* поможет избежать выхода поля за границы кнопки */
+position: relative; /* относительно этого блока будем позиционировать поле */
+}
+.button input {
+height: 200px;
+position: absolute; /* для более простого позиционирования поля */
+top: 0; /* начальные координаты */
+right: 0;
+opacity: 0; /* само поле делаем прозрачным, чтобы показать фон кнопки */
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+cursor: pointer;
+font-size: 200px;
+}
